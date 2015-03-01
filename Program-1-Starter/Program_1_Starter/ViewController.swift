@@ -77,14 +77,15 @@ class ViewController: UIViewController {
                 else {
                     println("Success: \(url)")
                     var json = JSON(json!)
-                    for (key: String, subJson: JSON) in json {
-                        println(key)
-                    }
+                    //for (key: String, subJson: JSON) in json {
+                    //    println(key)
+                    //}
                     
                     //or
                     
                     for (key,val) in json{
-                        println("\(key):\(val)")
+                        println(val.string!)
+                        println("\(key):\(hexStringToUIColor(val.string!))")
                     }
                 }
                 
@@ -286,6 +287,34 @@ class myJson {
         var boardsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary
         return boardsDictionary
     }
+}
+
+/********************************************************************************************
+* Color helper class
+* Methods:
+*   getJSON(string) returns NSData
+*   parseJSON(NSData) returns Dictionary
+********************************************************************************************/
+func hexStringToUIColor (hex:String) -> UIColor {
+    var cString:String = hex.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet() as NSCharacterSet).uppercaseString
+    
+    if (cString.hasPrefix("#")) {
+        cString = cString.substringFromIndex(advance(cString.startIndex, 1))
+    }
+    
+    if (countElements(cString) != 6) {
+        return UIColor.grayColor()
+    }
+    
+    var rgbValue:UInt32 = 0
+    NSScanner(string: cString).scanHexInt(&rgbValue)
+    
+    return UIColor(
+        red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+        green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+        blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+        alpha: CGFloat(1.0)
+    )
 }
 
 

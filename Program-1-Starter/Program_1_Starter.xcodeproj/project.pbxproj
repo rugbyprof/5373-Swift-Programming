@@ -435,6 +435,7 @@
 				85AC48F21A8ABAEC005DE77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AC48F31A8ABAEC005DE77C /* Build configuration list for PBXNativeTarget "Program_1_StarterTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				85AC48F51A8ABAEC005DE77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
