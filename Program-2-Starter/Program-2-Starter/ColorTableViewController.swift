@@ -19,6 +19,10 @@ class ColorTableViewController: UITableViewController {
     var myColors:Colors = Colors()
     var currentColor:String = ""
     var prevColor:String = ""
+<<<<<<< HEAD
+=======
+    var x = 5
+>>>>>>> 29b8121a0c7ef5c09410661beeea68374f7a4ea9
     
     weak var delegate: ColorTableViewControllerDelegate?
     
@@ -29,6 +33,10 @@ class ColorTableViewController: UITableViewController {
         super.viewDidLoad()
         myColors.resetCurrent()
         doneMenuButton.enabled = false
+<<<<<<< HEAD
+=======
+        x++
+>>>>>>> 29b8121a0c7ef5c09410661beeea68374f7a4ea9
     }
     
     override func didReceiveMemoryWarning() {
@@ -39,7 +47,10 @@ class ColorTableViewController: UITableViewController {
     // MARK: - Table View Methods
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+<<<<<<< HEAD
         
+=======
+>>>>>>> 29b8121a0c7ef5c09410661beeea68374f7a4ea9
         return 1
     }
     

@@ -26,6 +26,11 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
     
     var myColors:Colors = Colors()
     
+<<<<<<< HEAD
+=======
+    var x = 0
+    
+>>>>>>> 29b8121a0c7ef5c09410661beeea68374f7a4ea9
     @IBOutlet weak var chosenColorLabel: UILabel!
     @IBOutlet weak var colorItemsLabel: UILabel!
     
@@ -72,7 +77,15 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
             let tableVC = navVC.viewControllers.first as ColorTableViewController
             
             //Set the "myColors" variable in the table view with our local class value
+<<<<<<< HEAD
             tableVC.myColors = myColors
+=======
+            tableVC.myColors = self.myColors
+            
+            x = tableVC.x
+            
+            println("This is X: \(x)")
+>>>>>>> 29b8121a0c7ef5c09410661beeea68374f7a4ea9
             
             //Tell the "tableVC" (of type ColorTableViewController in this case)
             //that it's delegate will be "self"
