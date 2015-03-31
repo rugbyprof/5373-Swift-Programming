@@ -1,11 +1,11 @@
 ### CMPS 5443 Term Paper Assignment
 
-| Assignment                        | Due on or before  	| Percent of grade |
-|:--------------------------------- |:-------------------:|:----------------:|
-| Topic selection	                  | Mar 31<sup>st</sup>	|       5%         |
-| Paper summary & list of references| Apr 7<sup>th</sup> |	     10%         |
-| First draft	                      | Apr 16<sup>th</sup>	|      25%         |
-| Final paper                       |	May 5<sup>th</sup>  |      60%         |
+| Assignment                        | Due on or before  	| Percent of grade |                  |
+|:--------------------------------- |:-------------------:|:----------------:|:--------------------------:|
+| Topic selection	                  | Mar 31<sup>st</sup>	|       5%         |      done     |
+| Paper summary & list of references| Apr 7<sup>th</sup> |	     10%         | Place abstract.md in your repo   |
+| First draft	                      | Apr 16<sup>th</sup>	|      25%         |     |
+| Final paper                       |	May 5<sup>th</sup>  |      60%         |     |
 
 Follow the specifications in the document, “[Graduate Paper Format](http://cs.mwsu.edu/documents/GraduatePaperFormat.pdf).”  
 
