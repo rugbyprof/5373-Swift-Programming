@@ -9,6 +9,17 @@
 
 Follow the specifications in the document, “[Graduate Paper Format](http://cs.mwsu.edu/documents/GraduatePaperFormat.pdf).”  
 
+Topics:
+
+- Peer to peer file sharing via mobile phones. 
+    - How can users share files (documents, music, etc.) via mobile devices. What technologies are needed (blue tooth, wifi, etc) and what methods are currently employed to implement P2P file sharing.
+- Indoor and outdoor methods of tracking users via mobile phones.
+    - Gps, wifi, rfid. What methods are available for tracking users behaviors and locations via thier mobile devices.
+- Using Near Field Communication (NFC) for mobile payments. 
+    - A comparison of current technologies (google wallet, apple pay, etc). Discuss security, and implementation frameworks.
+- Comparison of mobile device growth over the last 5-10 years. 
+    - Discuss memory types, sizes as well as cpu speeds and number of cores. Basically an architecture overview describing the improvements and additions (accelerometers, gps, compass') added to mobile devices.
+
 Additional instructions below:
 - Paper should be 5-6 pages, not including the title page or references.
 - Paragraphs should be indented with NO additional space between paragraphs.
