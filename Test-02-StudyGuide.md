@@ -44,7 +44,7 @@ item.dueDate = yesterday
 
 ----
 
-- Given: `let value = 13 //any integer
+- Given: `let value = 13 //any integer`
 
 - Write a switch statement that does the following:
     - Prints "small" for values less than 10
@@ -55,4 +55,12 @@ item.dueDate = yesterday
     
 ----
 
+- What does the following code snippet output:
+
+```
+func something(s1: String, s2: String) -> Bool {
+    return s1 > s2
+}
+var changed = sorted(names, something)
+```
 
