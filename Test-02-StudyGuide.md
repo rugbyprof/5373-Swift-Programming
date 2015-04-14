@@ -1,5 +1,23 @@
 ## NOT DONE
 
+### Topics:
+- Ternary Conditional Operator
+- Range Operators
+- String Mutability
+- String Interpolation
+- Mutable vs Immutable
+- Arrays
+- Sets
+- Dictionaries
+- For-In Loop
+- Functions
+- Closure Expression Syntax
+- Classes and Structures
+- Value vs Reference Types
+
+
+### Example Questions:
+
 - Declare a variable called `x` to be a `Double` without using the keyword `Double`
 
 ----
@@ -58,9 +76,15 @@ item.dueDate = yesterday
 - What does the following code snippet output:
 
 ```
+let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+
 func something(s1: String, s2: String) -> Bool {
-    return s1 > s2
+    return s1 < s2
 }
 var changed = sorted(names, something)
+
+for name in changed{
+    print("\(name), ")
+}
 ```
 
