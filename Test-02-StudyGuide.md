@@ -88,3 +88,17 @@ for name in changed{
 }
 ```
 
+---
+
+- Given the following `For-In` loop:
+
+```
+for item in items {
+    if !item.checked {
+        print("\(name) , \(age)")
+        count += 1
+    }
+}
+```
+
+- Write the class or struct definition for items.
