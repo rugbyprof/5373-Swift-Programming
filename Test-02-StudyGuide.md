@@ -95,7 +95,7 @@ for name in changed{
 ```
 for item in items {
     if !item.checked {
-        print("\(name) , \(age)")
+        print("\(item.name) , \(item.age) , \(item.fatPercentage)")
         count += 1
     }
 }
