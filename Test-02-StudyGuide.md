@@ -43,3 +43,16 @@ item.dueDate = yesterday
 - When this is complete, return the average of all the values in the array.
 
 ----
+
+- Given: `let value = 13 //any integer
+
+- Write a switch statement that does the following:
+    - Prints "small" for values less than 10
+    - print "medium" for values bigger than small but less than 50
+    - print "large" for values bigger than medium but less than 500
+    - print "big" for values bigger than large but less than 500000
+    - print "huge" for the rest
+    
+----
+
+
