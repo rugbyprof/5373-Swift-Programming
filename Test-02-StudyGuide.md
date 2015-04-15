@@ -143,10 +143,146 @@ Use the for in loop to traverse through the dictionary to display value and its 
 
 Hint: Use tuple before in statement and nested loops are required
 
-
 ### Question 3
 
 Types of Range Operators and give example?
+
+-----
+-----
+
+### Varun Ayanala, Vinesh Thummala, Nanda Kishore Tokala 
+-------------------------
+### Question 1
+-------------------------
+```
+func join(string s1: String, toString s2: String,
+    withJoiner joiner: String = " ") -> String {
+        return s1 + joiner + s2
+}
+1. join(string: "hello", toString: "world", withJoiner: "-") 
+2. join(string: "hello", toString: "world")
+Output of line 1 and 2. Give reason if they produce error.
+```
+---------------------------
+### Question 2
+---------------------------
+```
+What is the difference between sets and array? 
+Create a set and insert some elements into a set?
+```
+----------------------------
+### Question 3
+----------------------------
+```
+let DictionarVal = [1: "one", 2: "two", 3:"three"]
+Traverse though the dictionary to print all the key value pairs of dictionary.
+```
+
+-----
+-----
+
+### Srikanth Reddy Beerelli, Sampath Kumar Manne, Pulivarthi Vijay Kumar
+
+### Question 1
+Write a function to return min and max values of an integer array when,
+<p>a) array has more than zero elements</p>
+<p>b) array has zero elements</p>
+
+### Question 2
+``` swift
+var array1 = [a,b,c]
+var array2 = array1
+array2.append(d)
+var length = array1.count
+```
+In the above snippet what is the value of length and give the specific reason.
+
+### Question 3
+<p>a) Create a mutable dictionary and an immutable dictionary.</p>
+<p>b) Create a mutable array and an immutable array.</p>
+
+-----
+-----
+
+### Dinesh Amarneni, Yaswanth Amaraneni, Sharath Garlapati
+
+## Question1
+What is printing after line 3 or gives error?
+```swift
+1. let constantString = "Highlander"
+2. constantString += " and another Highlander"
+3. print(constantString)
+```
+----
+## Question2
+```
+Write syntax for String interpolation.
+```
+----
+
+## Question3
+Shorthand the following code.
+```swift
+let contentHeight = 40
+let hasHeader = true
+var rowHeight = contentHeight
+if hasHeader {
+    rowHeight = rowHeight + 50
+} else {
+    rowHeight = rowHeight + 20
+}
+```
+
+-----
+-----
+
+### Krishna Bakka, Rohit Mukherjee, Ankur Patel
+
+## Question 1
+
+-> Do you see something wrong with the code below? Yes or No? Elaborate your answer. 
+
+``` swift
+Switch Grades {
+    case 0...60:
+    println("FAIL")
+    case 60...70:
+    println("D")
+    case 70...80:
+    println("C")
+    case 80...90:
+    println("B")
+    case 90...10:
+    println("A")
+    default:
+    println("PASS")
+    }
+```
+## Question 2
+
+-> What is the output of the following code?
+
+``` swift
+for index in 1...5{
+println("\(index) times 2 is \(index*2)")
+}
+
+for index in 1..<5{
+println("\(index) times 2 is \(index*2)")
+}
+```
+## Question 3
+
+-> Arrays:
+
+```swift
+var cities = ["Atlanta", "Dallas"]
+```
+a). write a code to add the city "Chicago" to the array, cities.
+
+b). Write a code to add the city "New York" to the array after the city "Atlanta".
+
+c). write a code to remove the city "Dallas" from the array, cities.
 
 -----
 -----
