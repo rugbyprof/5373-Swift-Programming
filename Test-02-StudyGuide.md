@@ -154,15 +154,17 @@ Types of Range Operators and give example?
 -------------------------
 #### Question 1
 -------------------------
-```
+```swift
 func join(string s1: String, toString s2: String,
     withJoiner joiner: String = " ") -> String {
         return s1 + joiner + s2
 }
 1. join(string: "hello", toString: "world", withJoiner: "-") 
 2. join(string: "hello", toString: "world")
+
 Output of line 1 and 2. Give reason if they produce error.
 ```
+
 ---------------------------
 #### Question 2
 ---------------------------
@@ -173,7 +175,7 @@ Create a set and insert some elements into a set?
 ----------------------------
 #### Question 3
 ----------------------------
-```
+```swift
 let DictionarVal = [1: "one", 2: "two", 3:"three"]
 Traverse though the dictionary to print all the key value pairs of dictionary.
 ```
@@ -189,7 +191,7 @@ Write a function to return min and max values of an integer array when,
 <p>b) array has zero elements</p>
 
 #### Question 2
-``` swift
+```swift
 var array1 = [a,b,c]
 var array2 = array1
 array2.append(d)
@@ -215,6 +217,7 @@ What is printing after line 3 or gives error?
 ```
 ----
 #### Question2
+
 ```
 Write syntax for String interpolation.
 ```
@@ -242,7 +245,7 @@ if hasHeader {
 
 -> Do you see something wrong with the code below? Yes or No? Elaborate your answer. 
 
-``` swift
+```swift
 Switch Grades {
     case 0...60:
     println("FAIL")
@@ -262,7 +265,7 @@ Switch Grades {
 
 -> What is the output of the following code?
 
-``` swift
+```swift
 for index in 1...5{
 println("\(index) times 2 is \(index*2)")
 }
@@ -290,7 +293,7 @@ c). write a code to remove the city "Dallas" from the array, cities.
 ### Madhuri Komuravelly, Surekha Kotiyala, Ramakrishna Veeravalli
 
 #### Question 1
-```
+```swift
 class Person {
    var firstName: String?
    var lastName: String?
@@ -304,7 +307,7 @@ class Person {
 Does the above code work? if works, what is the output, if not why?
 ```
 #### Question 2  
-```
+```swift
 //case1
 struct S { var data: Int = -1 }
 var a = S() 
@@ -324,7 +327,7 @@ what will be the output in both cases and explain why?
 
 
 #### Question 3 
-```
+```swift
 Provide an operator for comparing reference-type constants and variables to determine whether they refer to same object?
 ```
 
