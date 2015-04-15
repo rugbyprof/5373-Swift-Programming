@@ -112,7 +112,7 @@ Student Questions Below (will be edited):
 -----
 ### Vipin Deshmukh, Naveen Vupputuri, Kiran Tej Badana
 
-### Question 1
+#### Question 1
 
 ``` swift
 func backwards(s1: String, s2: String) -> Bool {
@@ -129,7 +129,7 @@ Hint: Closure Syntax
     statements
 }
 
-### Question 2
+#### Question 2
 
 ``` swift
 let interestingNumbers = [
@@ -143,7 +143,7 @@ Use the for in loop to traverse through the dictionary to display value and its 
 
 Hint: Use tuple before in statement and nested loops are required
 
-### Question 3
+#### Question 3
 
 Types of Range Operators and give example?
 
@@ -152,7 +152,7 @@ Types of Range Operators and give example?
 
 ### Varun Ayanala, Vinesh Thummala, Nanda Kishore Tokala 
 -------------------------
-### Question 1
+#### Question 1
 -------------------------
 ```
 func join(string s1: String, toString s2: String,
@@ -164,14 +164,14 @@ func join(string s1: String, toString s2: String,
 Output of line 1 and 2. Give reason if they produce error.
 ```
 ---------------------------
-### Question 2
+#### Question 2
 ---------------------------
 ```
 What is the difference between sets and array? 
 Create a set and insert some elements into a set?
 ```
 ----------------------------
-### Question 3
+#### Question 3
 ----------------------------
 ```
 let DictionarVal = [1: "one", 2: "two", 3:"three"]
@@ -183,12 +183,12 @@ Traverse though the dictionary to print all the key value pairs of dictionary.
 
 ### Srikanth Reddy Beerelli, Sampath Kumar Manne, Pulivarthi Vijay Kumar
 
-### Question 1
+#### Question 1
 Write a function to return min and max values of an integer array when,
 <p>a) array has more than zero elements</p>
 <p>b) array has zero elements</p>
 
-### Question 2
+#### Question 2
 ``` swift
 var array1 = [a,b,c]
 var array2 = array1
@@ -197,7 +197,7 @@ var length = array1.count
 ```
 In the above snippet what is the value of length and give the specific reason.
 
-### Question 3
+#### Question 3
 <p>a) Create a mutable dictionary and an immutable dictionary.</p>
 <p>b) Create a mutable array and an immutable array.</p>
 
@@ -206,7 +206,7 @@ In the above snippet what is the value of length and give the specific reason.
 
 ### Dinesh Amarneni, Yaswanth Amaraneni, Sharath Garlapati
 
-## Question1
+#### Question1
 What is printing after line 3 or gives error?
 ```swift
 1. let constantString = "Highlander"
@@ -214,13 +214,13 @@ What is printing after line 3 or gives error?
 3. print(constantString)
 ```
 ----
-## Question2
+#### Question2
 ```
 Write syntax for String interpolation.
 ```
 ----
 
-## Question3
+#### Question3
 Shorthand the following code.
 ```swift
 let contentHeight = 40
@@ -238,7 +238,7 @@ if hasHeader {
 
 ### Krishna Bakka, Rohit Mukherjee, Ankur Patel
 
-## Question 1
+#### Question 1
 
 -> Do you see something wrong with the code below? Yes or No? Elaborate your answer. 
 
@@ -258,7 +258,7 @@ Switch Grades {
     println("PASS")
     }
 ```
-## Question 2
+#### Question 2
 
 -> What is the output of the following code?
 
@@ -271,7 +271,7 @@ for index in 1..<5{
 println("\(index) times 2 is \(index*2)")
 }
 ```
-## Question 3
+#### Question 3
 
 -> Arrays:
 
@@ -287,9 +287,9 @@ c). write a code to remove the city "Dallas" from the array, cities.
 -----
 -----
 
-## Madhuri Komuravelly, Surekha Kotiyala, Ramakrishna Veeravalli
+### Madhuri Komuravelly, Surekha Kotiyala, Ramakrishna Veeravalli
 
-# Question 1
+#### Question 1
 ```
 class Person {
    var firstName: String?
@@ -303,7 +303,7 @@ class Person {
 
 Does the above code work? if works, what is the output, if not why?
 ```
-# Question 2  
+#### Question 2  
 ```
 //case1
 struct S { var data: Int = -1 }
@@ -323,7 +323,7 @@ what will be the output in both cases and explain why?
 ```
 
 
-# Question 3 
+#### Question 3 
 ```
 Provide an operator for comparing reference-type constants and variables to determine whether they refer to same object?
 ```
