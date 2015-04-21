@@ -512,8 +512,9 @@ C. Write the code to remove the city "Dallas" from the array, cities.
 cities.append("Chicago")
 cities.insert("New York", atIndex: 1)
 cities = cities.filter() { $0 != "Dallas" }
-//OR
+//NOT ACCEPTABLE:
 cities.removeAtIndex(2) //Not a good solution because your making an assumption where "Dallas" is.
+cities.removeLast() //Also not good for same reason
 ```
 
 ----
