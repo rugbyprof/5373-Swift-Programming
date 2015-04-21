@@ -121,8 +121,9 @@ Your answer should be no longer than a sentence or two.
 
 ***Solution:***
 ```swift
-var item: CheckListItem    // declares a variable of type item and doesnt initialize it 
-var item = CheckListItem() // declares a variable of type item AND runs the constructor creating an instance or initializing it with memory locations for each member variable.
+var item: CheckListItem    // Declares a variable of type item and doesnt initialize it 
+var item = CheckListItem() // Declares a variable of type item AND runs the constructor creating an 
+                           // instance or initializing it with memory locations for each member variable.
 ```
 
 ----
