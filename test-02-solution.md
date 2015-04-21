@@ -279,12 +279,14 @@ Your answer should only be one or two sentences.
 let pi = 3.14159 
 
 /*
-This is a "value" type. Value types cannot be changes because the reference that points to it, points to the actual value (which can't be changed).
+This is a "value" type. Value types cannot be changes because the reference that points 
+to it, points to the actual value (which can't be changed).
 */
 
 let item = CheckListItem() 
 /*
-This is a "reference" type. The items within the reference can be changed becuase it's not changing the actual reference itself, just the items accessed by that reference.
+This is a "reference" type. The items within the reference can be changed becuase it's 
+not changing the actual reference itself, just the items accessed by that reference.
 */
 ```
 
