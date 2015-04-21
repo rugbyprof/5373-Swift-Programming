@@ -38,6 +38,24 @@ Loop through the array the number of times dictated by `Iterations` and multiply
 
 When this is complete, return the average of all the values in the array.
 
+Solution:
+```swift
+func doTheCalculation(var Data: [Double], Iterations: Int, Ratio: Double) -> Double {
+    var Sum = 0.0
+    for i in 0..<Iterations{
+        for j in 0..<Data.count{
+            Data[j] *= Ratio
+            if (i == (Iterations - 1)){
+                Sum += Data[j]
+            }
+        }
+    }
+    
+    return Sum / Double(Data.count)
+}
+
+var answer = doTheCalculation([16,16,16,16,16,16], 3, 0.5)
+```
 ----
 
 #### Question 2 `10 points`
