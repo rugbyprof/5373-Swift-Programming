@@ -239,6 +239,15 @@ class item {
     var checked : Bool = false
 }
 
+//Method 2.5
+
+class item {
+    var name : String?
+    var age : Int?
+    var fatPercentage : Double?
+    var checked : B
+}
+
 //Method 3
 
 class item {
