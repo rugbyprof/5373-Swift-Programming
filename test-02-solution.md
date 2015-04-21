@@ -443,8 +443,9 @@ A. What collection type would you use to store these in Swift?
 B. If I wanted to quickly find out which animals were in more than one group or find the animal that's only in one group, how would I do so? 
 
 ***Solution:***
-```swift
-I was looking for "Sets" as an answer, but then realized that Set operations would be more difficult to use based on part B of the question. So, any container type with some justification would suffice.
+```
+I was looking for "Sets" as an answer, but then realized that Set operations would be more difficult
+to use based on part B of the question. So, any container type with some justification would suffice.
 ```
 
 ----
@@ -497,7 +498,8 @@ var contentHeight = 40
 let hasHeader = true
 let rowHeight = contentHeight + (hasHeader ? 50 : 20)
 
-//Parenthesis are necessary around the ternary statement because otherwise the binary operator "+" gets a little annoyed trying to be added to a "Bool". 
+// Parenthesis are necessary around the ternary statement because otherwise the binary operator "+" gets 
+// a little annoyed trying to be added to a "Bool". 
 ```
 
 ----
