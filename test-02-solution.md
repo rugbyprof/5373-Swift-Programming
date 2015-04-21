@@ -172,7 +172,7 @@ Given some optional: `var list : Checklist?` write the necessary code to unwrap 
 if let list = list {
     //Do something with list, it exists.
 }else{
-    //List is nil, handle error
+    //List is nil, handle that
 }
 ```
 
