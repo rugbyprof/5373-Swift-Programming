@@ -121,18 +121,8 @@ Your answer should be no longer than a sentence or two.
 
 ***Solution:***
 ```swift
-class CheckListItem{
-    var x:Int
-    var y:Int
-    
-    init(){
-        x=0
-        y=0
-    }
-}
-
 var item: CheckListItem    // declares a variable of type item and doesnt initialize it 
-var item = CheckListItem() // declares a variable of type item AND it does run the constructor creating an instance or initializing it with memory locations for each member variable.
+var item = CheckListItem() // declares a variable of type item AND runs the constructor creating an instance or initializing it with memory locations for each member variable.
 ```
 
 ----
@@ -371,9 +361,15 @@ What will be the output in both cases and explain why?
 
 ***Solution:***
 ```
+/*
+Swift’s Array types are implemented as structures. This means that arrays are copied when they are assigned to a new constant or variable, or when they are passed to a function or method.
+*/
 ["a", "b", "c"]
 ["a", "b", "x"]
 
+/*
+Swift structs are implemented as a "value" type, and are copied when assigned to a new variable or constant. Classes on the other hand are reference types, and when copied to another variable or constant both instances point to the same memory location.
+*/
 a.data = 42 b.data = -1
 m.data = 42 n.data = 42
 ```
@@ -404,6 +400,24 @@ Square: [1, 4, 9, 16, 25]
 
 ***Solution:***
 ```swift
+//Solution one
+for (key,list) in interestingNumbers {
+    println("\(key) : \(list)")
+}
+
+//Solution two (not very swift like)
+for (k,v) in interestingNumbers {
+    print("\(k):[")
+    var i = 0
+    for val in v {
+        print("\(val)")
+        if i < v.count-1 {
+            print(",")
+        }
+        i++
+    }
+    println("]")
+}
 
 ```
 
@@ -424,7 +438,7 @@ B. If I wanted to quickly find out which animals were in more than one group or 
 
 ***Solution:***
 ```swift
-
+I was looking for "Sets" as an answer, but then realized that Set operations would be more difficult to use based on part B of the question. So, any container type with some justification would suffice.
 ```
 
 ----
@@ -446,10 +460,14 @@ A. Does string interpolation in swift allow for arithmetic operations inside a s
 B. If not, what should the answer be, or would it error?
 
 ***Solution:***
-```swift
+```
+A. Yes
+
+B. No error
+
+String interpolation is perfectly fine with doing arithmetic operations inside the parenthsesis. 
 
 ```
-
 ----
 
 #### Question 15 `10 points`
@@ -469,7 +487,11 @@ if hasHeader {
 
 ***Solution:***
 ```swift
+var contentHeight = 40
+let hasHeader = true
+let rowHeight = contentHeight + (hasHeader ? 50 : 20)
 
+//Parenthesis are necessary around the ternary statement because otherwise the binary operator "+" gets a little annoyed trying to be added to a "Bool". 
 ```
 
 ----
@@ -487,7 +509,11 @@ C. Write the code to remove the city "Dallas" from the array, cities.
 
 ***Solution:***
 ```swift
-
+cities.append("Chicago")
+cities.insert("New York", atIndex: 1)
+cities = cities.filter() { $0 != "Dallas" }
+//OR
+cities.removeAtIndex(2) //Not a good solution because your making an assumption where "Dallas" is.
 ```
 
 ----
@@ -498,5 +524,5 @@ Provide an operator for comparing reference-type constants and variables to dete
 
 ***Solution:***
 ```swift
-
+=== //That's it.
 ```
