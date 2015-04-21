@@ -363,13 +363,16 @@ What will be the output in both cases and explain why?
 ***Solution:***
 ```
 /*
-Swift’s Array types are implemented as structures. This means that arrays are copied when they are assigned to a new constant or variable, or when they are passed to a function or method.
+Swift’s Array types are implemented as structures. This means that arrays are copied when they are assigned
+to a new constant or variable, or when they are passed to a function or method.
 */
 ["a", "b", "c"]
 ["a", "b", "x"]
 
 /*
-Swift structs are implemented as a "value" type, and are copied when assigned to a new variable or constant. Classes on the other hand are reference types, and when copied to another variable or constant both instances point to the same memory location.
+Swift structs are implemented as a "value" type, and are copied when assigned to a new variable or 
+constant. Classes on the other hand are reference types, and when copied to another variable or 
+constant both instances point to the same memory location.
 */
 a.data = 42 b.data = -1
 m.data = 42 n.data = 42
