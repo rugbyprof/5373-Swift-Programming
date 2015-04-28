@@ -1,6 +1,6 @@
 | # | Due | Assignment | Name | A/P | Description | Ran | Github | Done |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 3 | 05_Feb | Assignment_03 | First Assignment | A | Access a single value in a json object. | N/A |   |   |
+| 3 | 05_Feb | Assignment_03 | First Assignment | A | Access a single value in a json object. | |   |   |
 | 4 | 15_Feb | Program_0 | Slider Game | P | Slider game first tutorial |   |   |   |
 | 5 | 24_Feb | Program_1 | Single Page Application Color Game | P | Same as initial color game but using json and 400+ colors |   |   |   |
 | 6 | 30_Mar | Assignment_04 | Locations Assignment | P | Pass location data between 2 view controllers. |   |   |   |
