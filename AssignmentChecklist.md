@@ -1,4 +1,4 @@
-| # | Due | Assignment | Name | A / P | Description | Ran | Github | Done |
+| # | Due | Assignment | Name | A/P | Description | Ran | Github | Done |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 23 Jan | Assignment-01 | Register w/ Github | A |   | N/A | N/A |   |
 | 2 | 23 Jan | Assignment-02 | Register w/ Slack | A |   | N/A | N/A |   |
