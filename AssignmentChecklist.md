@@ -6,4 +6,3 @@
 | 6 | 30_Mar | Assignment_04 | Locations Assignment | P | Pass location data between 2 view controllers. |   |   |   |
 | 7 | 08_Apr | Assignment_05 | Core Data | P | Storing locations with core data. |   |   |   |
 | 8 | 30_Apr | Program_2 | Single Page Application – Table View |   | Add a color swatch to a table view. Pass data back to show information about a chosen color. |   |   |   |
-|   |   |   |   |   |   |   |   |   |
